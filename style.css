@@ -1,0 +1,23 @@
+.navbar{
+    background-color: rgb(32, 96, 155);
+}
+#ab{
+    color: darkred;
+    background-color: rgb(154, 204, 221);
+    width: auto;
+    margin: 0%;
+    padding-bottom: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+#cd{
+    background-color:white;
+}
+li{
+    padding :3px 0px 2px 25px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAYAAACALL/6AAAAAXNSR0IArs4c6QAAAWJJREFUGBltUU1LQkEUPfc5WVmY5QcmJJooSRmFQQtp06KoFq1q07a/EC2C+gH9gaBV+xZtgmiRuySoFgUFRVJBiB8RGqHZe+8289Ro4eXOnTtnzrl3mEv4Z3fPxXUCrck1weACCOemXt/ZO8nPkIatXLWaFIqfTqeFPzx+RISlll6KXDKPZQv6qiZIMMPuF5rbEgyGE5uy2h+5JXp7r+Hs9sPBICaYpZohDCUg6RtfNQOHmTzGgr1IRpwoVeo4virBMBkdNqL5Sff+3FQwJ+6filEp6ZPPgRJdPJRhGIybl0/ochcaYXnaB6/THlKdNRWUOTptWEx6YJPIdbaCH52tfEFivj57gySjFo94H8EoKyTk60Ys4IDqpsnKs4kBDHm6mmTzUiWqA0vfbaJIjfRb3VJxF6KBHgtm5jyq3wfqIGu1/1aFW8ZcYZNW4sPuU3W2BI0boM3gMnJw26ORwGuL8wsR1nginrjQhAAAAABJRU5ErkJggg==") left 5px no-repeat;
+    list-style-type: none;
+}
+#max{
+    color:floralwhite;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payment</title>
+        <link rel="stylesheet"type="text/css" href="style.css">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container" style="font-size: larger;font-weight: bold;">
+                  Payment
+            </div>
+        </div>
+        <div class="container" style="border-style: solid;background-color: #96c4d6;border-radius:10px 10px 10px 10px;">
+        <h5 style="padding:1px 1px 1px 1px;">Do u want to pay at the time of checkin .If yes, Click on yes button below you.</h5>
+        <button type="button" class="btn btn-success" onclick="reserve()">Yes</button>
+        </div>
+        <hr>
+        <div class="container">
+            <h5>Other payment options </h5>
+        <ol style="border-style: solid;background-color: #96c4d6;border-radius:10px 10px 10px 10px;">
+            <li><a href="done.html">Amazon Pay <i class="fab fa-cc-amazon-pay" style="font-size: 1.5rem;"></i></a></li>
+            <li><a href="done.html">Google Pay <img src="Pay.PNG" width="40px"></a></li>
+            <li><a href="done.html">Card <i class="far fa-credit-card" style="font-size: 1.5rem;"></i></a></li>
+        </ol>
+        </div>
+        <script>
+            function reserve(){
+                alert("Reservation Done. You will get an email shortly");
+            }
+        </script>
+    </body>
+</html>
